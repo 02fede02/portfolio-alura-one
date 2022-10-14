@@ -1,0 +1,155 @@
+
+/*Mobile*/
+@media (max-width: 425px) {
+    /*Menu*/
+  
+    .menu__header {
+      width: 100%;
+    }
+  
+    .menu__list__item:last-child {
+      display: initial;
+      color: var(--cor-contacto);
+      font-size: 1.142rem;
+      font-weight: 400;
+    }
+  
+    /*Titulo*/
+    .title__div {
+      flex-direction: column;
+      margin-top: 1rem;
+      padding: 0;
+    }
+  
+    .title__profile {
+      width: 25vw;
+      height: 15vh;
+    }
+  
+    .title__bio {
+      font-size: 1.375rem;
+    }
+  
+    .title__subsection,
+    .title__network {
+      font-size: 0.875rem;
+    }
+  
+    .title__network {
+      gap: 1.5rem;
+      margin-bottom: 1rem;
+    }
+  
+    /*Sección sobre mi*/
+    .about__container {
+      padding: 1rem;
+    }
+  
+    .about__title {
+      font-size: 1.375rem;
+    }
+  
+    .about__paragraph {
+      font-size: 0.875rem;
+      width: auto;
+    }
+    /*Skills and Hobbies*/
+  
+    .skills__title,
+    .hobbies__title {
+      font-size: 1.375rem;
+    }
+  
+    .skills__line,
+    .hobbies__line {
+      flex-wrap: wrap;
+    }
+  
+    .skills__box,
+    .hobbies__box {
+      width: 9.75rem;
+      height: 7.375rem;
+    }
+  
+    /*Formación Académica*/
+    .academic__courses {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 0.5rem;
+    }
+  
+    .academic__courses__item__img {
+      display: flex;
+      justify-content: center;
+      width: 18.5rem;
+      height: 7.375rem;
+    }
+  
+    .academic__courses__item__img img {
+      object-fit: contain;
+      width: 35%;
+    }
+  
+    /*Experiencia Profesional*/
+    section.experience {
+      padding: 1rem;
+    }
+  
+    .experience__section__title {
+      font-size: 1.375rem;
+      padding: 0;
+    }
+  
+    .experiencie__box {
+      flex-direction: column;
+      gap: 0.25rem;
+      padding: 1.5rem;
+    }
+  
+    .experiencie__box:nth-child(odd) {
+      flex-direction: column;
+    }
+  
+    .experience__title {
+      font-size: 1rem;
+      margin-bottom: 0;
+    }
+  
+    .experience__text {
+      font-size: 0.875rem;
+    }
+  
+    .experiencia__botao--repo,
+    .experience__botao--demo {
+      font-size: 0.875rem;
+      padding: .5rem;
+    }
+    /*Contacto*/
+  
+      section.formcontato {
+        margin: 0 -1rem;
+        padding: 2.5rem;
+      }
+    
+      .formcontato__img{
+        display: none;
+      }
+      
+      .formcontato__contacto{
+        flex-direction: column;
+      }
+      
+      .formcontato__title{
+        font-size: 1.375rem;
+      }
+       
+      .formcontato__botao{
+        width: 36%;
+        font-size: 0.875rem;
+        margin-top: 1.25rem;
+        padding: 0.5rem;
+      }
+    /*Footer*/
+  }
+  

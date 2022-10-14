@@ -1,0 +1,14 @@
+.about__container {
+    padding: 5rem;
+    background-color: var(--cor-sobre-fondo);
+  }
+  
+  .about__title {
+    font-size: 2rem;
+  }
+  
+  .about__paragraph {
+    text-align: justify;
+    width: 65%;
+  }
+  
